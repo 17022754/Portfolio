@@ -1,0 +1,19 @@
+@media only screen and (min-width: 860px){
+	.escapehatch{
+		display: none;
+	}
+
+	.layout-header{
+		top: 0;
+		height: 110px;
+		align-items: center;
+		position: sticky;
+		z-index: 3;
+	}
+
+
+
+	#logo-hidden{
+		display: block;
+	}
+}
