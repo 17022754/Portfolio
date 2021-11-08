@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -11,6 +13,10 @@ html, body {
 	text-align: center;
 }
 
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
 /*opmaak navigatiemenu*/
 #logo-hidden{
 	width: 100%;
@@ -20,6 +26,7 @@ html, body {
 }
 
 .layout-header{
+	z-index: 3;
 	bottom: 0;
     position: fixed;
     top: auto;
@@ -56,5 +63,52 @@ ul {
 	margin: 0.5rem auto; /*makes sure the logo is in the middle*/
 }
 
+/*Opmaak introbox*/
+.intro-box{
+	margin: 1rem 0;
+	width: 100%;
+	border-style: solid;
+	border-color: blue;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*Opmaak intro image*/
+.intro-image{
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+}
+
+.intro-image, .intro-tekst {
+	margin: 1rem;
+}
+
+/*Opmaak workethic box*/
+.workethic-box{
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.workethic-image{
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+}
+
+.workethic-text{
+	border-style: solid;
+	border-color: red;
+	margin: 1rem;
+	max-width: 350px;
+}
+
+.end{
+	margin-top: 4rem;
+}
 
 

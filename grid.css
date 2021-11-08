@@ -1,3 +1,9 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 @media only screen and (min-width: 860px){
 	.escapehatch{
 		display: none;
@@ -11,9 +17,16 @@
 		z-index: 3;
 	}
 
-
-
 	#logo-hidden{
 		display: block;
 	}
+
+	.intro-tekst{
+		max-width: 500px;
+	}
+
+	.intro-box{
+		align-items: center;
+	}
+
 }
