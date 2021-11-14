@@ -52,6 +52,7 @@ ul {
 
 /*Opmaak logo*/
 .escapehatch{
+	width: 100%;
 	background-color: #333;
 	height: 110px;
 }
@@ -72,13 +73,13 @@ ul {
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 /*Opmaak intro image*/
 .intro-image{
 	width: 100%;
-	max-width: 350px;
+	max-width: 150px;
 	height: auto;
 }
 
@@ -88,6 +89,7 @@ ul {
 
 /*Opmaak workethic box*/
 .workethic-box{
+	width: 100%;
 	background-color: yellow;
 	display: flex;
 	flex-wrap: wrap;
@@ -104,6 +106,7 @@ ul {
 	border-style: solid;
 	border-color: red;
 	margin: 1rem;
+	width: 100%;
 	max-width: 350px;
 }
 
