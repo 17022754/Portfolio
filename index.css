@@ -13,6 +13,17 @@ html, body {
 	text-align: center;
 }
 
+body { 
+	min-height: 100vh; 
+}
+
+
+.main{
+	width: 100%;
+	z-index: 1;
+	margin: 0 auto;
+}
+
 p{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -54,26 +65,27 @@ ul {
 .escapehatch{
 	width: 100%;
 	background-color: #333;
-	height: 110px;
+	margin: 0 auto;
 }
 
 .logo{
 	width: 100%;
 	max-width: 100px;
 	height: auto;
-	margin: 0.5rem auto; /*makes sure the logo is in the middle*/
+	/*margin: 0.5rem auto;*/ /*makes sure the logo is in the middle*/
 }
 
 /*Opmaak introbox*/
 .intro-box{
-	margin: 1rem 0;
 	width: 100%;
+	margin:0 auto;
 	border-style: solid;
 	border-color: blue;
-	display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+	margin: 1rem;
+}
+
+.intro-text{
+	margin: 1rem;
 }
 
 /*Opmaak intro image*/
@@ -81,19 +93,15 @@ ul {
 	width: 100%;
 	max-width: 150px;
 	height: auto;
-}
-
-.intro-image, .intro-tekst {
 	margin: 1rem;
 }
 
 /*Opmaak workethic box*/
 .workethic-box{
 	width: 100%;
-	background-color: yellow;
+	margin: 0;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-direction: column;
 }
 
 .workethic-image{
