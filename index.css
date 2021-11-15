@@ -81,11 +81,15 @@ ul {
 	margin:0 auto;
 	border-style: solid;
 	border-color: blue;
-	margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .intro-text{
 	margin: 1rem;
+	width: 100%;
+	max-width: 500px;
 }
 
 /*Opmaak intro image*/
@@ -101,7 +105,8 @@ ul {
 	width: 100%;
 	margin: 0;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .workethic-image{
@@ -113,7 +118,6 @@ ul {
 .workethic-text{
 	border-style: solid;
 	border-color: red;
-	margin: 1rem;
 	width: 100%;
 	max-width: 350px;
 }
