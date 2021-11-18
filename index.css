@@ -14,7 +14,8 @@ html, body {
 }
 
 body { 
-	min-height: 100vh; 
+	min-height: 100vh;
+	background-color: #E8E1D7; 
 }
 
 
@@ -42,7 +43,7 @@ p{
     position: fixed;
     top: auto;
     width: 100%;
-    background-color: #333;
+    background-color: #037277;
     display: flex;
 	justify-content: center;
 	padding: 0;
