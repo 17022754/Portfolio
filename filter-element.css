@@ -10,20 +10,23 @@ input[type="radio"] {
 label {
   width: 100%;
   max-width: 100px;
-  background:#ffffff;
   color:#222222;
   padding: 0.5rem;
-  margin: 0.75rem;
+  margin: 1rem 0;
   cursor:pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+  font-size: 0.75rem; /*12px*/
 }
 
 input[type="radio"][id=ontwerp]:hover + label {
-  border: 1px solid #6666ff;
+  border: 1px solid #C56D60;
+  opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="ontwerp"]:checked + label {
-  background:#6666ff;
+  background:#C56D60;
 }
 input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="ontwerp"]:checked ~ .onderzoek {
   width:0;
@@ -35,12 +38,13 @@ input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="on
 }
 
 input[type="radio"][id=website]:hover + label {
-  border: 1px solid #ff4466;
+  border: 1px solid #80A2A6;
+  opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="website"]:checked + label {
-  background:#ff4466;
+  background:#80A2A6;
 }
 input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="website"]:checked ~ .onderzoek {
   width:0;
@@ -52,12 +56,13 @@ input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="we
 }
 
 input[type="radio"][id=onderzoek]:hover + label {
-  border: 1px solid #66dd99;
+  border: 1px solid #C5A0A2;
+  opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="onderzoek"]:checked + label {
-  background:#66dd99;
+  background:#C5A0A2;
 }
 input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="onderzoek"]:checked ~ .website {
   width:0;
@@ -69,24 +74,27 @@ input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="
 }
 
 input[type="radio"][id=reset]:hover + label {
-  border: 1px solid yellow;
+  border: 1px solid #037277;
+  opacity: 1;
   border-radius: 2px;
 }
 
 .tile {
   width: 100%;
   max-width:350px;
+  margin: 1rem 0;
   padding: 2rem;
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .onderzoek {
-  background:#66dd99;
+  background:#C5A0A2;
 }
 .ontwerp {
-  background:#6666ff;
+  background:#C56D60;
 }
 .website {
-  background:#ff4466;
+  background:#80A2A6;
 }

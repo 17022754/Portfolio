@@ -15,9 +15,21 @@ html, body {
 
 body { 
 	min-height: 100vh;
-	background-color: #E8E1D7; 
+	background-color: #FAF2E5; 
 }
 
+h1, h2{
+	color: #D34A53;
+	margin: 1rem;
+}
+
+h1{
+	font-size: 3.25rem;
+}
+
+h2{
+	font-size: 1.75rem;
+}
 
 .main{
 	width: 100%;
@@ -43,7 +55,8 @@ p{
     position: fixed;
     top: auto;
     width: 100%;
-    background-color: #037277;
+    background-color: #FAF2E5; 
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
     display: flex;
 	justify-content: center;
 	padding: 0;
@@ -54,10 +67,11 @@ ul {
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding: 1.25rem;
+/*	font-size: 0.875rem; /*14px*/*/
 }
 
 .nav-container a {
-	color: white;
+	color: #037277;
 	text-decoration: none;
 	padding: 1.25rem;
 }
@@ -65,7 +79,6 @@ ul {
 /*Opmaak logo*/
 .escapehatch{
 	width: 100%;
-	background-color: #333;
 	margin: 0 auto;
 }
 
@@ -73,15 +86,13 @@ ul {
 	width: 100%;
 	max-width: 100px;
 	height: auto;
-	/*margin: 0.5rem auto;*/ /*makes sure the logo is in the middle*/
+	margin: 0.5rem auto; /*makes sure the logo is in the middle*/
 }
 
 /*Opmaak introbox*/
 .intro-box{
 	width: 100%;
 	margin:0 auto;
-	border-style: solid;
-	border-color: blue;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -96,7 +107,7 @@ ul {
 /*Opmaak intro image*/
 .intro-image{
 	width: 100%;
-	max-width: 150px;
+	max-width: 200px;
 	height: auto;
 	margin: 1rem;
 }
@@ -105,9 +116,23 @@ ul {
 .workethic-box{
 	width: 100%;
 	margin: 0;
+	background-color: #C5A0A2;
+}
+
+.workethic-intro{
+	padding: 1rem;
+	margin: auto auto;
+	max-width: 800px;
+}
+
+.workethic-wrap{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+figure{
+	text-align: center !important;
 }
 
 .workethic-image{
@@ -116,15 +141,26 @@ ul {
 	height: auto;
 }
 
+.right-images{
+	float: right;
+}
+
 .workethic-text{
-	border-style: solid;
-	border-color: red;
 	width: 100%;
 	max-width: 350px;
+	margin: 1rem 0;
+	padding: 1rem;
 }
 
 .end{
 	margin-top: 4rem;
 }
+
+.intro-text, .workethic-intro, .workethic-text, .tile {
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+
 
 
