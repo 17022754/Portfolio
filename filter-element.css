@@ -81,7 +81,7 @@ input[type="radio"][id=reset]:hover + label {
 
 .tile {
   width: 100%;
-  max-width:350px;
+  max-width:400px;
   margin: 1rem 0;
   padding: 2rem;
   display: inline-flex;
