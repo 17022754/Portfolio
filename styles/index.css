@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+/*the basic style of a page*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*the style of the body and html*/
+html, body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px; /* 1rem = 16px */
+	color: 	#141414;
+	text-align: center;
+	background-color: #FAF2E5; 
+}
+
+.main{
+	width: 100%;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+/*Special font sizes and styles*/
+h1, h2{
+	color: #D34A53;
+	margin: 1rem;
+}
+
+#special-h{
+	font-size: 3.25rem;
+}
+
+h2{
+	font-size: 1.75rem;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro-text, .workethic-intro, .workethic-text, .tile {
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.blue-h{
+	color: #037277;
+}
+
+/*style first 'block' of the page*/
+.intro-box{
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.intro-box, .intro-text, .intro-image{
+	width: 100%;
+}
+
+.intro-text{
+	margin: 1rem;
+	max-width: 500px;
+}
+
+.intro-image{
+	max-width: 200px;
+	height: auto;
+	margin: 1rem auto;
+}
+
+/*Style of the second 'block' about how I work*/
+.workethic-box{
+	width: 100%;
+	margin: 0;
+	background-color: #AECFD3;
+}
+
+.workethic-intro{
+	padding: 1rem;
+	margin: auto auto;
+	max-width: 800px;
+}
+
+.workethic-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+figure{
+	text-align: center !important;
+}
+
+.workethic-image{
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+}
+
+.myWork{
+	max-width: 300px;
+}
+
+.workethic-text{
+	width: 100%;
+	max-width: 350px;
+	margin: 1rem 0;
+	padding: 1rem;
+}
+
+.end{
+	margin-top: 4rem;
+}
+
+.layout-header, .footer{
+	background-image: url("images/image-footer.png");
+	background-position: center center;
+  	background-repeat: no-repeat;
+}
+
+/*.buttons-footer{
+	background-color: #FAF2E5;
+	border: solid #FAF2E5;
+	width: 100%;
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+
+
+#special-end{
+	margin-bottom: 0;
+}

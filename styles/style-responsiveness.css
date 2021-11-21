@@ -12,6 +12,12 @@
 	.tile{
 		margin: 1rem !important;
 	}
+
+	label{
+		font-size: 1rem !important;
+		margin: 2rem !important;
+
+	}
 }
 
 @media only screen and (min-width: 860px){
@@ -29,5 +35,16 @@
 
 	#logo-hidden{
 		display: block;
+	}
+
+	.end{
+	margin-top: 0;
+	}
+
+}
+
+@media only screen and (min-width: 1024px){
+	.intro-box{
+		justify-content: space-around;
 	}
 }

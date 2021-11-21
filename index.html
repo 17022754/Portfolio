@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Portfolio website</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="stylesheet" type="text/css" href="grid.css">
-		<link rel="stylesheet" type="text/css" href="filter-element.css">
-		<link rel="stylesheet" type="text/css" href="button.css">
-		<script type="text/javascript" href="filter-element.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+		<link rel="stylesheet" type="text/css" href="styles/style-navigation.css">
+		<link rel="stylesheet" type="text/css" href="styles/style-responsiveness.css">
+		<link rel="stylesheet" type="text/css" href="styles/style-workfilter.css">
+		<link rel="stylesheet" type="text/css" href="styles/button.css">
 	</head>
 	<body>
 		<header class="layout-header">
@@ -41,11 +41,11 @@
 		<main class="main">
 			<section class="intro-box">	
 				<section class="intro-text">
-					<h1>Hey, Doortje hier!</h1>
+					<h1 id="special-h">Hey, Doortje hier!</h1>
 					<p>Ik ben interaction design student in Den Haag, met een voorkeur voor user experience design. Voor mij is het belangrijk om websites toegankelijk en overzichtlijk te maken, zodat de doelen van zowel bedrijven als gebruikers gehaald kunnen worden. Ik ben op dit moment op zoek naar een leuke stageplek, dus ben je benieuwd naar wie ik ben, wat ik doe of wat voor werk ik geleverd heb? Neem dan snel een kijkje en misschien tot snel!</p>
 				</section>
 				<figure>
-					<img src="images/intro-image.jpg" class="intro-image">
+					<img src="images/intro-images.jpg" class="intro-image">
 				</figure>
 			</section>
 
@@ -58,6 +58,7 @@
 					<section class="workethic-text">
 						<figure>
 							<img src="images/search.png" class="workethic-image">
+							
 						</figure>
 						<h3>Onderzoek</h3>
 						<p>Om beter inzicht te krijgen in de gegeven opdracht, wil ik eerst het bedrijf en haar doelgroep beter leren kennen. Door user stories en user needs stel ik eisen van de doelgroep en het bedrijf op zodat het ontwerp goed aan sluit bij de wensen van zowel het bedrijf als de doelgroep.</p>
@@ -124,7 +125,7 @@
 					<div class="tile ontwerp">
 						<section>
 							<h2>Website ontwerp Festival Robotica</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -145,7 +146,7 @@
 					<div class="tile ontwerp">
 						<section>
 							<h2>Patronen in een interface</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -165,7 +166,7 @@
 					<div class="tile website">
 						<section>
 							<h2>Website voor de Haagse Hogeschool</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -186,7 +187,7 @@
 					<div class="tile onderzoek">
 						<section>
 							<h2>Revalidatiecentrum Basalt</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -207,7 +208,7 @@
 					<div class="tile website">
 						<section>
 							<h2>Responsive websites</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -228,7 +229,7 @@
 					<div class="tile onderzoek">
 						<section>
 							<h2>Campagne voor van Looye</h2>
-							<figure class="right-images">
+							<figure>
 								<img src="images/stock-image.png" class="myWork">
 							</figure>
 							<section>
@@ -243,17 +244,18 @@
 							</section>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<button><span>Lees meer over het project</span></button>
-							
 						</section>
 					</div>
 				</div>
 			</section>	
 		</main>
 		<footer class="footer">
-			<h1>Laten we samen een mooi project starten.</h1>
-			<h2>Email adres</h2>
-			<h2>Links naar linkedinn</h2>
-			<h2>links naar copyright</h2>
+			<h1 class="blue-h">Laten we samen een mooi project starten.</h1>
+			<h2 class="buttons-footer">Email adres</h2>
+			<h2 class="buttons-footer">Links naar linkedinn</h2>
+			<h2 class="buttons-footer">Links naar linkedinn</h2>
+			<h2 class="buttons-footer" id="special-end">links naar copyright</h2>
+			<br>
 		</footer>
 		<div class="end"></div>
 	</body>

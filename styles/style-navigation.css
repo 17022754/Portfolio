@@ -1,0 +1,47 @@
+/*style navigation with logo as escapehatch*/
+#logo-hidden{
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+	display: none;
+}
+
+.layout-header{
+	z-index: 3;
+	bottom: 0;
+    position: fixed;
+    top: auto;
+    width: 100%;
+    background-color: #FAF2E5; 
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 1.25rem;
+/*	font-size: 0.875rem; /*14px*/*/
+}
+
+.nav-container a {
+	color: #037277;
+	text-decoration: none;
+	padding: 1.25rem;
+}
+
+/*Opmaak logo*/
+.escapehatch{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 100%;
+	max-width: 100px;
+	height: auto;
+	margin: 0.5rem auto; /*makes sure the logo is in the middle*/
+}

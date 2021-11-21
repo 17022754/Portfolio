@@ -20,13 +20,13 @@ label {
 }
 
 input[type="radio"][id=ontwerp]:hover + label {
-  border: 1px solid #C56D60;
+  border: 1px solid #BCDCE0;
   opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="ontwerp"]:checked + label {
-  background:#C56D60;
+  background:#BCDCE0;
 }
 input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="ontwerp"]:checked ~ .onderzoek {
   width:0;
@@ -38,13 +38,13 @@ input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="on
 }
 
 input[type="radio"][id=website]:hover + label {
-  border: 1px solid #80A2A6;
+  border: 1px solid #D4E5E5;
   opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="website"]:checked + label {
-  background:#80A2A6;
+  background:#D4E5E5;
 }
 input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="website"]:checked ~ .onderzoek {
   width:0;
@@ -56,13 +56,13 @@ input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="we
 }
 
 input[type="radio"][id=onderzoek]:hover + label {
-  border: 1px solid #C5A0A2;
+  border: 1px solid #AECFD3;
   opacity: 1;
   border-radius: 2px;
 }
 
 input[type="radio"][id="onderzoek"]:checked + label {
-  background:#C5A0A2;
+  background:#AECFD3;
 }
 input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="onderzoek"]:checked ~ .website {
   width:0;
@@ -90,11 +90,15 @@ input[type="radio"][id=reset]:hover + label {
 }
 
 .onderzoek {
-  background:#C5A0A2;
+  background:#AECFD3;
 }
 .ontwerp {
-  background:#C56D60;
+  background:#BCDCE0;
 }
 .website {
-  background:#80A2A6;
+  background:#D4E5E5;
+}
+
+.myWork{
+  max-width: 300px;
 }
