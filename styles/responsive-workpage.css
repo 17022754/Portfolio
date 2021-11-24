@@ -1,0 +1,15 @@
+@media only screen and (min-width: 510px){
+	.workbox-end{
+		margin-top: 6rem;
+	}
+
+	.work-images{
+		max-width: 330px;
+	}
+}
+
+@media only screen and (min-width: 860px){
+	.workbox-end{
+		margin-top: 2rem;
+	}
+}
