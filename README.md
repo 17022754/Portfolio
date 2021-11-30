@@ -20,3 +20,12 @@ https://codepen.io/konradwax/pen/woPNqJ
 
 
 <a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>
+
+
+mockup for campagne project
+<a href='https://www.freepik.com/psd/book'>Book psd created by denamorado - www.freepik.com</a><a href='https://www.freepik.com/psd/book'>Book psd created by denamorado - www.freepik.com</a>
+
+
+picture minor article
+https://unsplash.com/photos/U33fHryBYBU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+

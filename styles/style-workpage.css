@@ -20,13 +20,25 @@ h3{
 
 .work-images{
 	width: 100%;
+	height: auto;
 	max-width: 300px;
+}
+
+.work-images.landscape {
+    max-height: 150px;
+    max-width: 300px;
+}
+
+.work-images.square {
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .work-flex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: safe center;
+	align-items: center;
 }
 
 .workbox-end{

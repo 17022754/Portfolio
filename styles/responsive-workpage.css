@@ -3,8 +3,8 @@
 		margin-top: 6rem;
 	}
 
-	.work-images{
-		max-width: 330px;
+	.work-flex{
+		justify-content: space-evenly;
 	}
 }
 

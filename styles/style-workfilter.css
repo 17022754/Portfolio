@@ -89,7 +89,7 @@ input[type="radio"][id=reset]:hover + label {
   flex-wrap: wrap;
 }
 
-.onderzoek {
+/*.onderzoek {
   background:#AECFD3;
 }
 .ontwerp {
@@ -98,7 +98,46 @@ input[type="radio"][id=reset]:hover + label {
 .website {
   background:#D4E5E5;
 }
-
+*/
 .myWork{
   max-width: 300px;
+}
+
+.intern-flex{
+  display: inline-flex;
+  align-items: center;
+}
+
+.intern-space{
+  padding-left: 2rem;
+  margin-top: 0.75rem;
+}
+
+.intern-p{
+  margin-left: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.intern-h{
+  margin-top: 0.75rem;
+}
+
+@media only screen and (min-width: 860px){
+  .tile{
+    max-width: 500px;
+  }
+
+  .right-block{
+    padding-left: 1rem;
+  }
+
+  /*.big-intern-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }*/
+
+  .myWork{
+    max-width: 400px;
+  }
 }
