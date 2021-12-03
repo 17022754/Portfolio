@@ -35,3 +35,6 @@ https://www.w3schools.com/howto/howto_js_collapsible.asp
 
 underline of the links 
 https://www.youtube.com/watch?v=Kz96odltLQI
+
+primaire button
+https://codepen.io/RazorXio/pen/gMaoOW
