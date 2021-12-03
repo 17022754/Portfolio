@@ -9,14 +9,15 @@
 		<link rel="stylesheet" type="text/css" href="styles/style-responsiveness.css">
 		<link rel="stylesheet" type="text/css" href="styles/style-workfilter.css">
 		<link rel="stylesheet" type="text/css" href="styles/button.css">
+		<script type="text/javascript" src="script/onclick-events.js"></script>
 	</head>
 	<body>
 		<header class="layout-header">
 			<!--navigatiemenu-->
 			<div class="grid-item nav-links">
 				<ul class="nav-container">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#allMyWork">Portfolio</a></li>
+					<li><a href="#home" class="underline">Home</a></li>
+					<li><a href="#allMyWork" class="underline">Portfolio</a></li>
 				</ul>
 			</div>
 			<!--logo voor grote scherm-->
@@ -27,8 +28,8 @@
 			</div>
 			<div class="grid-item nav-rechts">
 				<ul class="nav-container">
-					<li><a href="html/about-me.html">Over mij</a></li>
-					<li><a href="#footer">Contact</a></li>
+					<li><a href="html/about-me.html" class="underline">Over mij</a></li>
+					<li><a href="#footer" class="underline">Contact</a></li>
 				</ul>
 			</div>
 		</header>
@@ -42,10 +43,10 @@
 			<section class="intro-box" id="home">	
 				<section class="intro-text">
 					<h1 id="special-h">Hey, Doortje hier!</h1>
-					<p>Ik ben interaction design student in Den Haag, met een voorkeur voor user experience design. Voor mij is het belangrijk om websites toegankelijk en overzichtlijk te maken, zodat de doelen van zowel bedrijven als gebruikers gehaald kunnen worden. Ik ben op dit moment op zoek naar een leuke stageplek, dus ben je benieuwd naar wie ik ben, wat ik doe of wat voor werk ik geleverd heb? Neem dan snel een kijkje en misschien tot snel!</p>
+					<p>Ik ben interaction design student in Den Haag, met een voorkeur voor user experience design. Voor mij is het belangrijk om websites toegankelijk en overzichtlijk te maken, zodat de doelen van zowel bedrijven als gebruikers gehaald kunnen worden. Ik ben op dit moment op zoek naar een leuke stageplek, dus ben je benieuwd naar <a href="html/about-me.html" class="underline">wie ik ben</a> of aan <a href="#allMyWork" class="underline">welke projecten ik heb gewerkt?</a> Neem dan snel een kijkje en misschien tot snel!</p>
 				</section>
 				<figure>
-					<img src="images/intro-images.jpg" class="intro-image">
+					<img src="images/oefenen.png" class="intro-image">
 				</figure>
 			</section>
 
@@ -86,7 +87,7 @@
 				<h2 >Mijn werk</h2>
 
 				<div class="container"> 
-						<input type="radio" id="ontwerp" name="color" class="second-nav"/>
+						<input type="radio" id="ontwerp" name="color" class="underline"/>
 						<label for="ontwerp">Ontwerp</label>
 
 						<input type="radio" id="website" name="color" class="second-nav"/>
@@ -101,7 +102,7 @@
 					<div class="break"></div> <!-- break -->
 
 					<!-- project viscom1 -->
-					<div class="tile ontwerp">
+					<div class="tile ontwerp" onclick="openWorkpage1()">
 							<section>
 								<figure class="right-images">
 									<img src="images/viscom1/viscom1.png" class="myWork">
@@ -124,11 +125,11 @@
 								<section>
 								<p>Tijdens het vak Visual communication 1 heb ik een logo gemaakt voor het festival Robotica 2025. Dit vak heb ik geleerd om met illustrator en figma te werken.</p>
 								</section>
-								<button><span><a href="html/viscom1.html">Lees meer over het project</a></span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 					<!-- Project viscom2 -->
-					<div class="tile ontwerp">
+					<div class="tile ontwerp" onclick="openWorkpage2()">
 							<section>
 								<figure class="right-images">
 									<img src="images/viscom2/viscom2.png" class="myWork">
@@ -151,11 +152,11 @@
 								<section>
 								<p>Het project draaide om het ontwerpen van interface voor een website voor het festival robotica 2025. Het ontwerp bestaat uit een mobiele en desktop versie.</p>
 								</section>
-								<button><span><a href="html/viscom2.html">Lees meer over het project</a></span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 					<!-- Patterns project -->
-					<div class="tile ontwerp">
+					<div class="tile ontwerp" onclick="openWorkpage3()">
 							<section>
 								<figure class="right-images">
 									<img src="images/patterns/patterns.png" class="myWork">
@@ -178,12 +179,12 @@
 								<section>
 								<p>Het vak patterns draaide op het vinden en herkennen van patronen in een website. Daaruit heb ik een her-ontwerp gemaakt van een webshop en onderbouwd welke patronen in het ontwerp toegepast zijn.</p>
 								</section>
-								<button><span><a href="html/patterns.html">Lees meer over het project</a></span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 					<!-- Project for centre of expertise -->
-					<div class="tile website">
+					<div class="tile website" onclick="openWorkpage4()">
 							<section>
 								<figure class="right-images">
 									<img src="images/projectc/projectc.png" class="myWork">
@@ -206,12 +207,12 @@
 								<section>
 								<p>In dit project werd voor het eerst gebruik gemaakt van een realistische opdrachtgever, namelijk het center of Expertise. Tijdens de opdracht heb ik het design proces doorlopen, tot een betaversie van een website.</p>
 								</section>
-								<button><span>Lees meer over het project</span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 					<!-- Project Basalt, usable design -->
-					<div class="tile onderzoek">
+					<div class="tile onderzoek" onclick="openWorkpage5()">
 							<section>
 								<figure class="right-images">
 									<img src="images/projectd/basalt.png" class="myWork">
@@ -234,12 +235,12 @@
 								<section>
 								<p>Dit project heb ik samen gemaakt met vijf studiegenoten. Het van een project van 10 weken, waar gewerkt werd aan een hi-fi prototype voor breinpraat. </p>
 								</section>
-								<button><span>Lees meer over het project</span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 					<!-- Project ixd and technology -->
-					<div class="tile website">
+					<div class="tile website" onclick="openWorkpage6()">
 							<section>
 								<figure class="right-images">
 									<img src="images/xt1/xt1.png" class="myWork">
@@ -262,12 +263,12 @@
 								<section>
 									<p>Tijdens het vak IxD & Technology heb ik geleerd hoe ik vanaf een mobile first aanpak een ontwerp kan creëren en daaruit een responsive ontwerp kan uitwerken met behulp van flexbox en media queries.</p>
 								</section>
-								<button><span>Lees meer over het project</span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 					<!-- Campagne van Looye -->
-					<div class="tile ontwerp">
+					<div class="tile ontwerp" onclick="openWorkpage7()">
 							<section>
 								<figure class="right-images">
 									<img src="images/looye/looye.png" class="myWork">
@@ -290,13 +291,13 @@
 								<section>
 									<p>In 2020 heb ik samen met vier studiegenoten een opdracht gedaan voor Looye kwekers. De opdracht was om een campagne op te zetten, wat aantrekkelijk is voor jongeren tussen 14 en 25 jaar (generatie Z).</p>
 								</section>
-								<button><span>Lees meer over het project</span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 
 					<!-- project HCI -->
-					<div class="tile website">
+					<div class="tile website" onclick="openWorkpage8()">
 							<section>
 								<figure class="right-images">
 									<img src="images/hci/hci.png" class="myWork">
@@ -319,12 +320,12 @@
 								<section>
 									<p>In deze cursus heb ik geleerd om met verschillende technologieën te werken, om interactieve concepten te bedenken. In dit project gaat het om werken vanuit een technologie en niet vanuit de gebruiker. Het resultaat is verwerkt in een portfolio website.</p>
 								</section>
-								<button><span>Lees meer over het project</span></button>
+								<button class="underline">Lees meer over het project</button>
 							</section>
 					</div>
 
 					<!-- Minor Marketing -->
-					<div class="tile onderzoek">
+					<div class="tile onderzoek" onclick="openWorkpage9()">
 							<section>
 								<figure class="right-images">
 									<img src="images/minor/minor.jpg" class="myWork">
@@ -347,7 +348,7 @@
 								<section>
 									<p>Tijdens de minor heb ik meerdere dingen mogen leren over internet marketing. Vanuit deze lessen heb ik uiteindelijk een wetenschappelijk artikel geschreven over de effectiviteit van zoekmachinemarketing.</p>
 								</section>
-								<button><span>Klik hier om mijn volledige artikel te lezen</span></button>
+								<button class="underline">Klik hier om mijn volledige artikel te lezen</button>
 							</section>
 					</div>
 				</div>
@@ -356,12 +357,12 @@
 		<footer class="footer" id="footer">
 			<h1 class="blue-h">Laten we samen een mooi project starten.</h1>
 			<section class="footer-flex">
-				<a href="mailto:doortjedebles@live.nl" class="link-footer">Stuur mij een mail</a>
-				<a href="https://www.linkedin.com/in/doortje-de-bles-9a2404188/" target="_blank" class="link-footer">Laten we een connectie maken op LinkedInn</a>
-				<a href="" target="_blank" class="link-footer">Of download mijn CV</a>
+				<a href="mailto:doortjedebles@live.nl" class="link-footer underline">Stuur mij een mail</a>
+				<a href="https://www.linkedin.com/in/doortje-de-bles-9a2404188/" target="_blank" class="link-footer underline">Laten we een connectie maken op LinkedInn</a>
+				<a href="" target="_blank" class="link-footer underline">Of download mijn CV</a>
 			</section>
 			<hr class="rounded">
-			<h5 class="buttons-footer" id="special-end">&copy; Doortje de Bles 2021</h5>
+			<h5 class="buttons-footer" id="special-end">&copy; 2021 Alle rechten voorbehouden - Doortje de Bles</h5>
 			<br>
 		</footer>
 		<div class="end"></div>

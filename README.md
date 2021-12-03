@@ -29,3 +29,9 @@ mockup for campagne project
 picture minor article
 https://unsplash.com/photos/U33fHryBYBU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
+
+collapse in about me page
+https://www.w3schools.com/howto/howto_js_collapsible.asp
+
+underline of the links 
+https://www.youtube.com/watch?v=Kz96odltLQI

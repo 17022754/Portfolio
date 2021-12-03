@@ -7,6 +7,28 @@ input[type="radio"] {
   display: none;
 }
 
+label{
+  display: inline-block;
+  padding-bottom: 10rem; /* defines the space between text and underline */
+  position: relative;
+}
+
+label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(0, 255, 0);
+  transition: width 0.25s ease-out;
+}
+label:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
 label {
   width: 100%;
   max-width: 100px;
@@ -14,20 +36,13 @@ label {
   padding: 0.5rem;
   margin: 1rem 0;
   cursor:pointer;
-  opacity: 0.9;
-  transition: 0.3s;
   font-size: 0.75rem; /*12px*/
-}
-
-input[type="radio"][id=ontwerp]:hover + label {
-  border: 1px solid #BCDCE0;
-  opacity: 1;
-  border-radius: 2px;
 }
 
 input[type="radio"][id="ontwerp"]:checked + label {
   background:#BCDCE0;
 }
+
 input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="ontwerp"]:checked ~ .onderzoek {
   width:0;
   height:0;
@@ -35,12 +50,6 @@ input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="on
   margin:0;
   opacity:0;
   display: none;
-}
-
-input[type="radio"][id=website]:hover + label {
-  border: 1px solid #D4E5E5;
-  opacity: 1;
-  border-radius: 2px;
 }
 
 input[type="radio"][id="website"]:checked + label {
@@ -55,12 +64,6 @@ input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="we
   display: none;
 }
 
-input[type="radio"][id=onderzoek]:hover + label {
-  border: 1px solid #AECFD3;
-  opacity: 1;
-  border-radius: 2px;
-}
-
 input[type="radio"][id="onderzoek"]:checked + label {
   background:#AECFD3;
 }
@@ -73,12 +76,6 @@ input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="
   display: none;
 }
 
-input[type="radio"][id=reset]:hover + label {
-  border: 1px solid #037277;
-  opacity: 1;
-  border-radius: 2px;
-}
-
 .tile {
   width: 100%;
   max-width:400px;
@@ -87,6 +84,22 @@ input[type="radio"][id=reset]:hover + label {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
+  cursor: pointer;
+}
+
+div.tile{
+  transition: all 0.5s ease-in;
+}
+
+div.tile:hover,
+div.tile:focus {
+  background-color: #FAF2E5;
+  box-shadow: 0 0.1px 0.6px rgba(0, 0, 0, 0.025),
+              0 0.3px 1.3px rgba(0, 0, 0, 0.036),
+              0 0.5px 2.5px rgba(0, 0, 0, 0.045),
+              0 0.9px 4.5px rgba(0, 0, 0, 0.054),
+              0 1.7px 8.4px rgba(0, 0, 0, 0.065),
+              0 4px 20px rgba(0, 0, 0, 0.09);
 }
 
 /*.onderzoek {
