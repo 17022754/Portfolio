@@ -1,15 +1,5 @@
-@media only screen and (min-width: 510px){
-	.workbox-end{
-		margin-top: 6rem;
-	}
-
-	.work-flex{
-		justify-content: space-evenly;
-	}
-}
-
 @media only screen and (min-width: 860px){
 	.workbox-end{
-		margin-top: 2rem;
+		margin-top: 0;
 	}
 }

@@ -1,0 +1,83 @@
+.pics_in_a_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+img, video{
+	width: 100%;
+	max-width: 350px;
+}
+
+@media only screen and (min-width: 510px){ 
+img, video{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  vertical-align: middle;
+}
+  /*This code makes sure that the images stay the same height while the screen is getting bigger*/
+  /*Images from about-me*/
+  .img1 { flex: 1.003;}
+  .img2 { flex: 1.5001; }
+  .img3 { flex: 1.777; }
+  .img4 { flex: 1.500; }
+
+  /*Images style from viscom1*/
+  .img5 { flex: calc(400/324.52);} /*This is how you calculate the flex shrink or growth*/
+  .img6 { flex: calc(400/317.7); } 
+  .img7 { flex: calc(400/194.359); }
+  .img8 { flex: 1.545; }
+  .img9 { flex: 1.0098;}
+  .img10 { flex: 1.029; }
+  .img11 { flex: 2.298; }
+  .img12 { flex: 0.721; }
+
+  /*Images style for viscom 2*/
+  .img13{flex: calc(560/668)}
+
+  .img14{flex: calc(400/239.39)}
+  .img15{flex: calc(400/273.59)}
+  .img16{flex: calc(400/285.45)}
+  .img17{flex: calc(400/264.7)}
+  .img18{flex: calc(400/355.22)}
+  .img19{flex: calc(400/430.66)}
+  
+  .vid1{flex: calc(400/710.63);}
+  .vid2{flex: calc(400/243.27);}
+
+  /*Images and styles patterns*/
+  .img20{flex: calc(400/635.73);}
+  .img21{flex: calc(400/563.28);}
+  .img22{flex: calc(400/541.45);}
+
+  /*Images and video styles of Centre of Expertise*/
+  .img23{flex: calc(400/498.88);}
+  .img24{flex: calc(400/529.86);}
+  .img25{flex: calc(400/238.22);}
+
+  .img26{flex: calc(400/566.73);}
+  .img27{flex: calc(400/222.75);}
+  .img28{flex: calc(400/283.2);}
+
+  /*Images and video of Basalt*/
+
+  /*Images and video styles of looye*/
+
+  /*Images and video styles of xt1*/
+
+  /*Images and video styles of hci*/
+
+
+  .pics_in_a_row > div:not(:last-child) {
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (min-width: 730px){
+  img, video{
+    max-width: 800px;
+  }
+}
+
