@@ -46,7 +46,7 @@ a {
 	color: #766767;
 }
 
-.intro-text, .workethic-intro, .workethic-text, .tile {
+.intro-text, .workethic-intro, .workethic-text, .tile, .margin-section {
 	text-align: justify;
   	text-justify: inter-word;
   	text-justify: distribute;
@@ -120,6 +120,16 @@ figure{
 	padding: 1rem;
 }
 
+.margin-section{
+	padding: 1rem;
+	max-width: 800px;
+	margin: auto auto;
+}
+
+.credits-p{
+	padding-left: 2rem;
+}
+
 .end{
 	margin-top: 4rem;
 }
@@ -149,6 +159,8 @@ hr.rounded {
 
 .link-footer{
 	padding: 0.5rem;
+	/*margin-top: 1rem;*/
+	margin: 1rem 2rem;
 }
 
 .footer-logo{
