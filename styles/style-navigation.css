@@ -24,8 +24,7 @@ ul {
 	display: inline-flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	padding: 1.25rem 0;
-	font-size: 0.875rem;
+	padding: 0;
 	margin: 1rem;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -36,8 +35,9 @@ ul {
 .nav-container a {
 	color: #037277;
 	text-decoration: none;
-	padding: 1.25rem 0;
+	/*padding: 1.25rem 0;*/
 	margin: 0 1.25rem;
+	font-size: 0.875rem;
 }
 
 /*Opmaak logo*/
