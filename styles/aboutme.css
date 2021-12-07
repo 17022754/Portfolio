@@ -12,7 +12,7 @@
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: #CD8F95;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -29,14 +29,14 @@ button.collapsible{
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #C68187;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #F9F1F2;
 }
 
 .collapsible:after{

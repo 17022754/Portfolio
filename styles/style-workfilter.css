@@ -20,7 +20,7 @@ label::before {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: rgb(0, 255, 0);
+  background-color: #CF833E;
   transition: width 0.25s ease-out;
 }
 label:hover::before {
@@ -40,7 +40,7 @@ label {
 }
 
 input[type="radio"][id="ontwerp"]:checked + label {
-  background:#BCDCE0;
+  /*background:#BCDCE0;*/
 }
 
 input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="ontwerp"]:checked ~ .onderzoek {
@@ -53,7 +53,7 @@ input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="on
 }
 
 input[type="radio"][id="website"]:checked + label {
-  background:#D4E5E5;
+  /*background:#D4E5E5;*/
 }
 input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="website"]:checked ~ .onderzoek {
   width:0;
@@ -65,7 +65,7 @@ input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="we
 }
 
 input[type="radio"][id="onderzoek"]:checked + label {
-  background:#AECFD3;
+  /*background:#AECFD3;*/
 }
 input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="onderzoek"]:checked ~ .website {
   width:0;
@@ -93,7 +93,7 @@ div.tile{
 
 div.tile:hover,
 div.tile:focus {
-  background-color: #FAF2E5;
+  background-color: #F9F1F2;
   box-shadow: 0 0.1px 0.6px rgba(0, 0, 0, 0.025),
               0 0.3px 1.3px rgba(0, 0, 0, 0.036),
               0 0.5px 2.5px rgba(0, 0, 0, 0.045),

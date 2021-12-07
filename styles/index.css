@@ -11,10 +11,11 @@
 html, body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px; /* 1rem = 16px */
-	color: #766767;
-	/*color: 	#141414;*/
+	color: #3A3A3C;
+	/*color: #27403D;*/
 	text-align: center;
-	background-color: #FAF2E5; 
+	/*background-color: #FAF2E5; */
+	background-color: #F9F1F2;
 }
 
 .main{
@@ -25,7 +26,7 @@ html, body {
 
 /*Special font sizes and styles*/
 h1, h2{
-	color: #D34A53;
+	color: #CF833E;
 	margin: 1rem;
 }
 
@@ -43,7 +44,7 @@ p{
 
 a {
 	text-decoration: none;
-	color: #766767;
+	color: #CF833E;
 }
 
 .intro-text, .workethic-intro, .workethic-text, .tile, .margin-section {
@@ -51,10 +52,6 @@ a {
   	text-justify: inter-word;
   	text-justify: distribute;
   	text-align-last: left;
-}
-
-.blue-h{
-	color: #037277;
 }
 
 /*style first 'block' of the page*/
@@ -84,7 +81,7 @@ a {
 .workethic-box{
 	width: 100%;
 	margin: 0;
-	background-color: #AECFD3;
+	background-color: #E1C8CA;
 }
 
 .workethic-intro{
@@ -101,6 +98,7 @@ a {
 
 figure{
 	text-align: center !important;
+	margin-top: 1rem;
 }
 
 .workethic-image{
@@ -116,7 +114,6 @@ figure{
 .workethic-text{
 	width: 100%;
 	max-width: 350px;
-	margin: 1rem 0;
 	padding: 1rem;
 }
 
@@ -147,14 +144,13 @@ figure{
 hr.rounded {
 	border: 0;
   	height: 2px;
-  	background-image: linear-gradient(to right, transparent, #CCC, transparent);
+  	background-image: linear-gradient(to right, transparent, #E1C8CA, transparent);
   	margin: 1rem;
 }
 
 .footer-flex{
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
 }
 
 .link-footer{

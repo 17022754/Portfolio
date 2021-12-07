@@ -2,7 +2,7 @@
 button {
   border: none;
   font-family: 'Montserrat', sans-serif;
-  color: #766767;
+  color: #CF833E;
   font-size: 1rem;
   background: none;
   text-align: justify;
@@ -47,7 +47,7 @@ button:hover:after {
   bottom: 0;
   width: 0;
   height: 2px;
-  background-color: rgb(0, 255, 0);
+  background-color: #CF833E;
   transition: width 0.25s ease-out;
 }
 .underline:hover::before {
