@@ -52,7 +52,7 @@ img, video{
   .img21{flex: calc(400/563.28);}
   .img22{flex: calc(400/541.45);}
 
-  /*Images and video styles of Centre of Expertise*/
+  /*Images styles of Centre of Expertise*/
   .img23{flex: calc(400/498.88);}
   .img24{flex: calc(400/529.86);}
   .img25{flex: calc(400/238.22);}
@@ -61,13 +61,34 @@ img, video{
   .img27{flex: calc(400/222.75);}
   .img28{flex: calc(400/283.2);}
 
-  /*Images and video of Basalt*/
+  /*Images styles of Basalt*/
+  .img29{flex: calc(400/377.69);}
+  .img30{flex: calc(400/259.23);}
+  .img31{flex: calc(400/277.55);}
 
-  /*Images and video styles of looye*/
+  .img32{flex: calc(400/407.22);}
+  .img33{flex: calc(400/153.84);}
+  .img34{flex: calc(400/183.33);}
+
+  .img35{flex: calc(400/509.08);}
+  .img36{flex: calc(400/267.23);}
 
   /*Images and video styles of xt1*/
+  .img37{flex: calc(400/533.33);}
+  .img38{flex: calc(400/217.31);}
+  .img39{flex: calc(400/186.89);}
 
-  /*Images and video styles of hci*/
+
+  /*Images and video styles of looye*/
+  .img40{flex: calc(400/600);}
+  .img41{flex: calc(400/266.66);}
+  .img42{flex: calc(400/533.33);}
+
+  /*Video styles of hci*/
+  .vid3{flex: calc(400/222.39);}
+  .vid4{flex: calc(400/225);}
+
+  .vid5{flex: calc(400/229.75);}
 
 
   .pics_in_a_row > div:not(:last-child) {
@@ -78,6 +99,10 @@ img, video{
 @media only screen and (min-width: 730px){
   img, video{
     max-width: 800px;
+  }
+
+  .vid3, .vid4, .vid5{
+    max-width: 600px !important;
   }
 }
 
