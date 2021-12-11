@@ -64,5 +64,6 @@
 @media only screen and (min-width: 1024px){
 	.intro-box{
 		justify-content: space-around;
+		align-items: center;
 	}
 }
