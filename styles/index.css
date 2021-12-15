@@ -30,11 +30,11 @@ h1, h2{
 	margin: 1rem;
 }
 
-h1, h2, h3{
+h1, h2, .tile h3, p.intern-space, .intern-p p {
 	text-align: initial;
 }
 
-.margin-h{
+.margin-h, .footer h1{
 	text-align: center !important;
 }
 
@@ -60,21 +60,16 @@ p, a{
   	-moz-hyphens: auto;
   	-ms-hyphens: auto;
   	hyphens: auto;
+  	word-break: normal;
 }
 
 .intro-text, .workethic-intro, .workethic-text, .tile, .margin-section {
 	text-align: justify;
+	/*text-align: left;*/
 	word-wrap: break-word;
+	overflow-wrap: break-word;
+	text-justify: inter-word;
 	text-align-last: left;
-/*	overflow-wrap: break-word;*/
-	/*text-align: justify;*/
-	/*word-wrap: break-word;*/
-	/*text-justify: none;*/
-	/*text-justify: inter-cluster;*/
-	/*word-spacing: -2px;*/
-/*	text-justify: inter-character;*/
-/*  	text-justify: distribute;*/
-
 }
 
 /*style first 'block' of the page*/
@@ -178,19 +173,9 @@ hr.rounded {
 
 .link-footer{
 	padding: 0.5rem;
-	/*margin-top: 1rem;*/
 	margin: 1rem 2rem;
 }
 
 .footer-logo{
 	max-width: 100px;
 }
-
-/*.buttons-footer{
-	background-color: #FAF2E5;
-	border: solid #FAF2E5;
-	width: 100%;
-	max-width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-}*/
