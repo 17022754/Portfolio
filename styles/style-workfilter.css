@@ -123,12 +123,16 @@ div.tile:focus {
 
 .intern-space{
   padding-left: 2rem;
-  margin-top: 0.75rem;
+  margin-top: 0rem;
 }
 
 .intern-p{
   margin-left: 0.75rem;
   margin-bottom: 1rem;
+}
+
+.second-line{
+  margin-top: 1rem;
 }
 
 .intern-h{
@@ -144,11 +148,17 @@ div.tile:focus {
     padding-left: 1rem;
   }
 
-  /*.big-intern-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }*/
+  .intern-space{
+    margin-top: -0.05rem;
+  }
+
+  .intern-p{
+    margin-top: 0.12rem;
+  }
+
+
+
+
 
   .myWork{
     max-width: 400px;

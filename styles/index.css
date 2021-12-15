@@ -34,7 +34,7 @@ h1, h2, .tile h3, p.intern-space, .intern-p p {
 	text-align: initial;
 }
 
-.margin-h, h1.footer {
+.margin-h, .footer h1 {
 	text-align: center !important;
 }
 
