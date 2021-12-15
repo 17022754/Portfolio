@@ -2,6 +2,10 @@
 	.nav-container a {
 		margin: 0 1.25rem;
 	}
+
+	.intro-text{
+		max-width: 500px;
+	}
 }
 
 @media only screen and (min-width: 460px){
@@ -59,6 +63,9 @@
 		justify-content: space-evenly;
 	}
 
+	.intro-text{
+		max-width: 550px;
+	}
 }
 
 @media only screen and (min-width: 1024px){
