@@ -40,7 +40,7 @@ label {
 }
 
 input[type="radio"][id="ontwerp"]:checked + label {
-  /*background:#BCDCE0;*/
+  
 }
 
 input[type="radio"][id="ontwerp"]:checked ~ .website, input[type="radio"][id="ontwerp"]:checked ~ .onderzoek {
@@ -65,7 +65,6 @@ input[type="radio"][id="website"]:checked ~ .ontwerp, input[type="radio"][id="we
 }
 
 input[type="radio"][id="onderzoek"]:checked + label {
-  /*background:#AECFD3;*/
 }
 input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="onderzoek"]:checked ~ .website {
   width:0;
@@ -102,16 +101,6 @@ div.tile:focus {
               0 4px 20px rgba(0, 0, 0, 0.09);
 }
 
-/*.onderzoek {
-  background:#AECFD3;
-}
-.ontwerp {
-  background:#BCDCE0;
-}
-.website {
-  background:#D4E5E5;
-}
-*/
 .myWork{
   max-width: 300px;
 }
@@ -123,49 +112,18 @@ div.tile:focus {
 
 .intern-space{
   padding-left: 2rem;
-  margin-top: 1rem;
-}
-
-.second-line, .special1{
-  margin-top: 2rem;
+  align-self: center;
 }
 
 .intern-p{
   margin-left: 0.75rem;
+  align-self: center;
+  margin-top: 0.25rem;
   margin-bottom: 1rem;
 }
 
 .intern-h{
   margin-top: 0.75rem;
-}
-
-@media only screen and (min-width: 357px){
-  .special1{
-    margin-top: 0rem;
-  }
-
-  .second-line, .special2{
-    margin-top: 1rem;
-  }
-
-}
-
-@media only screen and (min-width: 326px){
-  .special1{
-    margin-top: 1rem;
-  }
-}
-
-@media only screen and (min-width: 376px){
-  .special1 {
-    margin-top: 0;
-  }
-}
-
-@media only screen and (min-width: 393px){
-  .intern-space {
-    margin-top: 0;
-  }
 }
 
 @media only screen and (min-width: 860px){
@@ -184,10 +142,6 @@ div.tile:focus {
   .intern-p{
     margin-top: 0.12rem;
   }
-
-
-
-
 
   .myWork{
     max-width: 400px;
