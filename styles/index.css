@@ -30,6 +30,14 @@ h1, h2{
 	margin: 1rem;
 }
 
+h1, h2, h3{
+	text-align: initial;
+}
+
+.margin-h{
+	text-align: center !important;
+}
+
 #special-h{
 	font-size: 3.25rem;
 }
@@ -47,11 +55,26 @@ a {
 	color: #CF833E;
 }
 
+p, a{
+	-webkit-hyphens: auto;
+  	-moz-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphens: auto;
+}
+
 .intro-text, .workethic-intro, .workethic-text, .tile, .margin-section {
 	text-align: justify;
-  	text-justify: inter-word;
-  	text-justify: distribute;
-  	text-align-last: left;
+	word-wrap: break-word;
+	text-align-last: left;
+/*	overflow-wrap: break-word;*/
+	/*text-align: justify;*/
+	/*word-wrap: break-word;*/
+	/*text-justify: none;*/
+	/*text-justify: inter-cluster;*/
+	/*word-spacing: -2px;*/
+/*	text-justify: inter-character;*/
+/*  	text-justify: distribute;*/
+
 }
 
 /*style first 'block' of the page*/
@@ -66,7 +89,7 @@ a {
 	width: 100%;
 }
 
-.intro-text{
+.intro-text {
 	margin: 1rem;
 	max-width: 500px;
 }
@@ -84,7 +107,7 @@ a {
 	background-color: #E1C8CA;
 }
 
-.workethic-intro{
+.workethic-intro {
 	padding: 1rem;
 	margin: auto auto;
 	max-width: 800px;
