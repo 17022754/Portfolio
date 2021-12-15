@@ -123,7 +123,11 @@ div.tile:focus {
 
 .intern-space{
   padding-left: 2rem;
-  margin-top: 0rem;
+  margin-top: 1rem;
+}
+
+.second-line, .special1{
+  margin-top: 2rem;
 }
 
 .intern-p{
@@ -131,12 +135,37 @@ div.tile:focus {
   margin-bottom: 1rem;
 }
 
-.second-line{
-  margin-top: 1rem;
-}
-
 .intern-h{
   margin-top: 0.75rem;
+}
+
+@media only screen and (min-width: 357px){
+  .special1{
+    margin-top: 0rem;
+  }
+
+  .second-line, .special2{
+    margin-top: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 326px){
+  .special1{
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 376px){
+  .special1 {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 393px){
+  .intern-space {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width: 860px){
