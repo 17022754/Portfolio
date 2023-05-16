@@ -15,7 +15,7 @@ html, body {
 	/*color: #27403D;*/
 	text-align: center;
 	/*background-color: #FAF2E5; */
-	background-color: #F9F1F2;
+	background-color: #FDFCFA;
 }
 
 .main{
@@ -36,6 +36,11 @@ h1, h2, .tile h3, p.intern-space, .intern-p p {
 
 .margin-h, .footer h1 {
 	text-align: center !important;
+}
+
+.margin-h{
+	padding-top: 1.5rem;
+	margin-bottom: 0;
 }
 
 #special-h{
@@ -99,7 +104,8 @@ p, a{
 .workethic-box{
 	width: 100%;
 	margin: 0;
-	background-color: #E1C8CA;
+	padding: 1rem;
+	background-color: #f6f6f6;
 }
 
 .workethic-intro {
@@ -112,6 +118,7 @@ p, a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	padding: 1rem;
 }
 
 figure{
@@ -147,12 +154,6 @@ figure{
 
 .end{
 	margin-top: 4rem;
-}
-
-.layout-header{
-	background-image: url("../images/image-footer.png");
-	background-position: center center;
-  	background-repeat: no-repeat;
 }
 
 #special-end{

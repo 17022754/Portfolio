@@ -12,8 +12,8 @@
     position: fixed;
     top: auto;
     width: 100%;
-    background-color: #F9F1F2; 
-    box-shadow: 0px 2px 2px -2px rgba(0,0,0,.2);
+    background-color: #FDFCFA; 
+/*    box-shadow: 0px 2px 2px -2px rgba(0,0,0,.2);*/
     display: flex;
 	justify-content: safe center;
 	padding: 0;

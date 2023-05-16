@@ -84,6 +84,9 @@ input[type="radio"][id="onderzoek"]:checked ~ .ontwerp, input[type="radio"][id="
   justify-content: center;
   flex-wrap: wrap;
   cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  
 }
 
 div.tile{
@@ -92,7 +95,7 @@ div.tile{
 
 div.tile:hover,
 div.tile:focus {
-  background-color: #F9F1F2;
+  background-color: #FDFCFA;
   box-shadow: 0 0.1px 0.6px rgba(0, 0, 0, 0.025),
               0 0.3px 1.3px rgba(0, 0, 0, 0.036),
               0 0.5px 2.5px rgba(0, 0, 0, 0.045),
